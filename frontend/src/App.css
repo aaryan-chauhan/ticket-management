@@ -1,0 +1,161 @@
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+.app-header h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  color: #555;
+}
+
+.tabs button.active {
+  color: #1a73e8;
+  border-bottom-color: #1a73e8;
+  font-weight: 600;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.75rem;
+  text-align: left;
+}
+
+.form-row label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: #444;
+}
+
+.form-row input,
+.form-row select,
+.form-row textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+
+.form-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #1a73e8;
+  background: #1a73e8;
+  color: #fff;
+  padding: 0.45rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+button.secondary {
+  background: #fff;
+  color: #555;
+  border-color: #ccc;
+}
+
+button.danger {
+  background: #fff;
+  color: #d93025;
+  border-color: #d93025;
+  margin-left: 0.4rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+}
+
+.actions {
+  white-space: nowrap;
+}
+
+.error {
+  color: #d93025;
+  font-size: 0.85rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: #eee;
+  color: #333;
+}
+
+.priority-low {
+  background: #e6f4ea;
+  color: #1e7e34;
+}
+
+.priority-medium {
+  background: #fff4e5;
+  color: #b26a00;
+}
+
+.priority-high {
+  background: #fdeaea;
+  color: #c0392b;
+}
+
+.status-open {
+  background: #e8f0fe;
+  color: #1a73e8;
+}
+
+.status-in_progress {
+  background: #fff4e5;
+  color: #b26a00;
+}
+
+.status-resolved {
+  background: #e6f4ea;
+  color: #1e7e34;
+}
